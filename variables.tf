@@ -1,0 +1,13 @@
+variable "region" {}
+variable "access_key" {}
+variable "secret_key" {}
+variable "vpc_cidr_block" {}
+variable "public_subnet_1_cidr_block" {}
+variable "public_subnet_2_cidr_block" {}
+variable "private_subnet_1_cidr_block" {}
+variable "private_subnet_2_cidr_block" {}
+variable "availability_zone_1" {}
+variable "availability_zone_2" {}
+variable "tag_name_prefix" {}
+variable "my-ip" {}
+variable "keypair" {}

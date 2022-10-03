@@ -1,0 +1,16 @@
+#local terraform directory
+.terraform/*
+.venv/*
+.idea/
+
+#terraform state files
+*.tfstate
+.tfstate.*
+*.tfstate.*
+
+#variables file
+*.tfvars
+
+#keypem
+*.pem
+*.docx
